@@ -16,7 +16,8 @@ focus.mtech_repulsion.name=Repulsion
 focus.mtech_death.name=Death
 focus.mtech_inferno.name=Inferno
 focus.mtech_bats.name=Bats
-focus.mtech_bats.name=Life
+focus.mtech_life.name=Life
+focus.mtech_detonation.name=Detonation
 
 mtech.invalid_or_missing=Invalid or missing focus ID
 mtech.use_with_caution=Use with caution

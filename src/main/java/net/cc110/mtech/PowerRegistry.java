@@ -194,7 +194,7 @@ public class PowerRegistry
 	
 	public static void reInit(String name)
 	{
-		MTech.logger.info("Reinitialisation triggered by " + name);
+		MTech.logger.warn("Reinitialisation triggered by " + name);
 		
 		coreMap.clear();
 		idList.clear();
@@ -211,6 +211,7 @@ public class PowerRegistry
 		registerFocus("inferno", new FocusInferno());
 		registerFocus("bats", new FocusBats());
 		registerFocus("life", new FocusLife());
+		registerFocus("detonation", new FocusDetonation());
 		
 		registerFocus("debug", new FocusDebug(), true);
 	}

@@ -42,7 +42,7 @@ public class MTech
 	
 	public static ItemCore core = (ItemCore)new ItemCore().setUnlocalizedName("mtech_focus_core").setCreativeTab(tab).setMaxStackSize(1);
 	public static ItemSceptre sceptre = (ItemSceptre)new ItemSceptre().setUnlocalizedName("mtech_focus_sceptre").setCreativeTab(tab);
-
+	
 	public static SoundEvent repulsionBoom;
 	public static SoundEvent repulsionActivate;
 	public static SoundEvent repulsionDeactivate;
