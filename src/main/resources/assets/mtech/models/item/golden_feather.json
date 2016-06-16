@@ -1,0 +1,7 @@
+{
+    "parent": "mtech:item/resource",
+    "textures":
+    {
+        "layer0": "mtech:items/golden_feather"
+    }
+}

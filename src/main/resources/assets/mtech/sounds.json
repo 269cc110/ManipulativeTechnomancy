@@ -1,0 +1,35 @@
+{
+    "repulsion_boom":
+    {
+        "category": "master",
+        "sounds":
+        [
+            {
+                "name": "mtech:repulsion_boom",
+                "stream": false
+            }
+        ]
+    },
+    "repulsion_activate":
+    {
+        "category": "master",
+        "sounds":
+        [
+            {
+                "name": "mtech:repulsion_activate",
+                "stream": false
+            }
+        ]
+    },
+    "repulsion_deactivate":
+    {
+        "category": "master",
+        "sounds":
+        [
+            {
+                "name": "mtech:repulsion_deactivate",
+                "stream": false
+            }
+        ]
+    }
+}

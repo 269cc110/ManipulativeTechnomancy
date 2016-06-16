@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures":
+    {
+        "layer0": "mtech:items/sceptre_centre",
+        "layer1": "mtech:items/focus_sceptre_static"
+    }
+}

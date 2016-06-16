@@ -1,0 +1,8 @@
+{
+    "parent": "mtech:item/resource",
+    "textures":
+    {
+        "layer0": "mtech:items/core_centre",
+        "layer1": "mtech:items/core_static"
+    }
+}

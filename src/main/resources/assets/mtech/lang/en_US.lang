@@ -1,0 +1,23 @@
+itemGroup.mtech=Manipulative Technomancy
+
+item.mtech_bat_wing.name=Bat Wing
+item.mtech_lens.name=Diamond Lens
+item.mtech_sirium_dust.name=Sirium Dust
+item.mtech_sirium_ingot.name=Sirium Ingot
+item.mtech_fourcore_alloy.name=Fourcore Alloy
+item.mtech_sirium_nugget.name=Sirium Nugget
+item.mtech_wolf_tailbone.name=Wolf Tailbone
+
+item.mtech_empty_core.name=Empty Focus Core
+item.mtech_focus_core.name=Focus Core
+item.mtech_focus_sceptre.name=Focus Sceptre
+
+focus.mtech_repulsion.name=Repulsion
+focus.mtech_death.name=Death
+focus.mtech_inferno.name=Inferno
+focus.mtech_bats.name=Bats
+focus.mtech_bats.name=Life
+
+mtech.invalid_or_missing=Invalid or missing focus ID
+mtech.use_with_caution=Use with caution
+mtech.useless=Somewhat useless

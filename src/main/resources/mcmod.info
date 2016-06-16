@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mtech",
+  "name": "Manipulative Technomancy",
+  "description": "Tech and magic, fused into one.",
+  "version": "0.1",
+  "mcversion": "1.9.4",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["condorcraft110"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
