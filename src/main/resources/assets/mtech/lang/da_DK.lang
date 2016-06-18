@@ -18,6 +18,8 @@ focus.mtech_inferno.name=Inferno
 focus.mtech_bats.name=Flagermus
 focus.mtech_life.name=Liv
 focus.mtech_detonation.name=Detonation
+focus.mtech_water.name=Vand
+focus.mtech_lava.name=Lava
 
 mtech.invalid_or_missing=Ugyldig eller mangler fokus ID
 mtech.use_with_caution=Brug med forsigtighed

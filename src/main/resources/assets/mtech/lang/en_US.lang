@@ -18,6 +18,8 @@ focus.mtech_inferno.name=Inferno
 focus.mtech_bats.name=Bats
 focus.mtech_life.name=Life
 focus.mtech_detonation.name=Detonation
+focus.mtech_water.name=Water
+focus.mtech_lava.name=Lava
 
 mtech.invalid_or_missing=Invalid or missing focus ID
 mtech.use_with_caution=Use with caution

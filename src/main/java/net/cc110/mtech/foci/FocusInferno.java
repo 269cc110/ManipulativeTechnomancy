@@ -13,7 +13,7 @@ import net.minecraft.util.text.translation.*;
 
 public class FocusInferno implements ICoreFocus
 {
-	private static final ItemStack CORE_MATERIAL = new ItemStack(Items.FLINT_AND_STEEL);
+	private static final ItemStack CORE_MATERIAL = new ItemStack(Items.MAGMA_CREAM);
 	
 	public boolean hitEntity(ItemStack stack, EntityLivingBase victim, EntityLivingBase attacker)
 	{

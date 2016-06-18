@@ -212,6 +212,8 @@ public class PowerRegistry
 		registerFocus("bats", new FocusBats());
 		registerFocus("life", new FocusLife());
 		registerFocus("detonation", new FocusDetonation());
+		registerFocus("water", new FocusWater());
+		registerFocus("lava", new FocusLava());
 		
 		registerFocus("debug", new FocusDebug(), true);
 	}

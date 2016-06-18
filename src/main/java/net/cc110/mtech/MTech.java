@@ -69,6 +69,10 @@ public class MTech
 		
 		ConfigHolder.lifeRange = config.get("foci", "LifeRange", 20.0, "Range to heal mobs with the life sceptre").getDouble();
 		
+		ConfigHolder.waterRange = config.get("foci", "WaterRange", 0.0, "Range to place water with the water sceptre (0 for player reach distance)").getDouble();
+		
+		ConfigHolder.lavaRange = config.get("foci", "LavaRange", 0.0, "Range to place lava with the lava sceptre (0 for player reach distance)").getDouble();
+		
 		if(config.hasChanged()) config.save();
 		
 		GameRegistry.register(resource.setRegistryName("resource"));

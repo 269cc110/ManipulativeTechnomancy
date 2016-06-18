@@ -18,7 +18,7 @@ public class NBTHelper
 	
 	public static void setStackInt(ItemStack stack, String name, int value)
 	{
-		if(stack.hasTagCompound()) { stack.getTagCompound().setInteger(name, value); }
+		if(stack.hasTagCompound()) stack.getTagCompound().setInteger(name, value);
 		else
 		{
 			NBTTagCompound tag = new NBTTagCompound();
