@@ -25,7 +25,7 @@ public class ItemSceptre extends Item
 		switch(stack.getMetadata())
 		{
 			case 0:
-				return PowerRegistry.getFocus(stack.getTagCompound().getString("FocusID")).onItemUse(stack, player, world, pos, hand, facing, hitX, hitY, hitZ);
+				return PowerRegistry.getFocus(NBTHelper.getStackString(stack, "FocusID")).onItemUse(stack, player, world, pos, hand, facing, hitX, hitY, hitZ);
 			case 1:
 				//return ResonanceRegistry.getResonance(stack.getTagCompound().getInteger("ResonanceID")).onItemUse(stack, player, world, x, y, z, i, f, g, h);
 			default:
