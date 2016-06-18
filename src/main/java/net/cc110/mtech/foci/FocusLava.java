@@ -16,7 +16,7 @@ import net.minecraft.util.text.translation.*;
 
 public class FocusLava implements ICoreFocus
 {
-	private static final ItemStack CORE_MATERIAL = new ItemStack(Blocks.TNT);
+	private static final ItemStack CORE_MATERIAL = new ItemStack(Items.LAVA_BUCKET);
 	
 	public boolean hitEntity(ItemStack stack, EntityLivingBase victim, EntityLivingBase attacker)
 	{

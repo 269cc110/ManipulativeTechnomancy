@@ -16,7 +16,7 @@ import net.minecraft.util.text.translation.*;
 
 public class FocusWater implements ICoreFocus
 {
-	private static final ItemStack CORE_MATERIAL = new ItemStack(Blocks.TNT);
+	private static final ItemStack CORE_MATERIAL = new ItemStack(Items.WATER_BUCKET);
 	
 	public boolean hitEntity(ItemStack stack, EntityLivingBase victim, EntityLivingBase attacker)
 	{
