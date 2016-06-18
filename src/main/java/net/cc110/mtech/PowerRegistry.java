@@ -125,6 +125,8 @@ public class PowerRegistry
 	// Will never return null
 	public static ICoreFocus getFocus(String id)
 	{
+		if(id == null) throw new NullPointerException();
+		
 		id = id.toLowerCase();
 		
 		if(id.contains(":"))
@@ -152,6 +154,8 @@ public class PowerRegistry
 	
 	public static String getLocalFocusName(String id)
 	{
+		if(id == null) throw new NullPointerException();
+		
 		if(id.contains(":"))
 		{
 			String[] idSplit = id.split(":");
