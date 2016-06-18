@@ -21,6 +21,6 @@ focus.mtech_detonation.name=Detonation
 focus.mtech_water.name=Vand
 focus.mtech_lava.name=Lava
 
-mtech.invalid_or_missing=Ugyldig eller mangler fokus ID
+mtech.invalid_or_missing=§cUgyldig eller mangler fokus ID
 mtech.use_with_caution=Brug med forsigtighed
 mtech.useless=Temmelig ubrugelig

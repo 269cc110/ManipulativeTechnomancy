@@ -49,7 +49,7 @@ public class PowerRegistry
 		
 		public ActionResult<ItemStack> onItemRightClick(ItemStack stack, World world, EntityPlayer player, EnumHand hand)
 		{
-			if(!world.isRemote) player.addChatMessage(new TextComponentString(TextFormatting.RED + "Missing or invalid focus ID"));
+			if(!world.isRemote) player.addChatMessage(new TextComponentTranslation("mtech.invalid_or_missing"));
 			
 			return ActionResult.newResult(EnumActionResult.SUCCESS, stack);
 		}
@@ -66,7 +66,7 @@ public class PowerRegistry
 		
 		public void addInformation(ItemStack stack, EntityPlayer player, List list, boolean b)
 		{
-			list.add("Invalid focus ID");
+			if(stack.getItem() == MTech.core) list.add(I18n.translateToLocal("mtech.invalid_or_missing"));
 		}
 		
 		public int getRGBColour()
