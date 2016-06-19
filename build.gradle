@@ -21,7 +21,7 @@ plugins {
 }
 */
 
-version = "0.1"
+version = "0.0.0"
 group= "net.cc110.mtech" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "mtech-1.9.4"
 
