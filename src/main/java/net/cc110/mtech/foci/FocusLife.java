@@ -2,6 +2,7 @@ package net.cc110.mtech.foci;
 
 import java.util.*;
 import net.cc110.mtech.*;
+import net.minecraft.init.*;
 import net.minecraft.item.*;
 import net.minecraft.util.*;
 import net.minecraft.world.*;
@@ -12,7 +13,7 @@ import net.minecraft.util.text.translation.*;
 
 public class FocusLife implements ICoreFocus
 {
-	private static final ItemStack CORE_MATERIAL = new ItemStack(MTech.resource, 1, 6);
+	private static final ItemStack CORE_MATERIAL = new ItemStack(Items.EGG);
 	
 	public boolean hitEntity(ItemStack stack, EntityLivingBase victim, EntityLivingBase attacker)
 	{
