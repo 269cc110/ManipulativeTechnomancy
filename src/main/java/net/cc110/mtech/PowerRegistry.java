@@ -49,7 +49,7 @@ public class PowerRegistry
 		
 		public ActionResult<ItemStack> onItemRightClick(ItemStack stack, World world, EntityPlayer player, EnumHand hand)
 		{
-			if(!world.isRemote) player.addChatMessage(new TextComponentTranslation("mtech.invalid_or_missing"));
+			if(!world.isRemote) player.addChatMessage(new TextComponentTranslation("mtech.missing_or_invalid"));
 			
 			return ActionResult.newResult(EnumActionResult.SUCCESS, stack);
 		}
@@ -66,7 +66,7 @@ public class PowerRegistry
 		
 		public void addInformation(ItemStack stack, EntityPlayer player, List list, boolean b)
 		{
-			if(stack.getItem() == MTech.core) list.add(I18n.translateToLocal("mtech.invalid_or_missing"));
+			if(stack.getItem() == MTech.core) list.add(I18n.translateToLocal("mtech.missing_or_invalid"));
 		}
 		
 		public int getRGBColour()
@@ -163,7 +163,7 @@ public class PowerRegistry
 			return I18n.translateToLocal("focus." + idSplit[0] + "_" + idSplit[1] + ".name");
 		}
 		
-		return I18n.translateToLocal("mtech.invalid_or_missing");
+		return I18n.translateToLocal("mtech.missing_or_invalid");
 	}
 	
 	public static Iterator<String> idIterator()

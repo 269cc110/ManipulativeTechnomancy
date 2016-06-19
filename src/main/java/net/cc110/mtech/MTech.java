@@ -54,6 +54,7 @@ public class MTech
 		
 		config.load();
 		
+		// Foci
 		ConfigHolder.repulsion1Divisor = config.get("foci", "RepulsionMode1Divisor", 1.5, "Divisor to apply to motion calculation in repulsion mode 1").getDouble();
 		ConfigHolder.repulsion1Range = config.get("foci", "RepulsionMode1Range", 5.0, "Range to repel mobs in repulsion mode 1").getDouble();
 		
@@ -71,7 +72,10 @@ public class MTech
 		
 		ConfigHolder.waterRange = config.get("foci", "WaterRange", 0.0, "Range to place water with the water sceptre (0 for player reach distance)").getDouble();
 		
-		ConfigHolder.lavaRange = config.get("foci", "LavaRange", 0.0, "Range to place lava with the lava sceptre (0 for player reach distance)").getDouble();
+		// Drops
+		ConfigHolder.batWingDropChance = config.get("drops", "BatWingDropChance", 10, "Chance to drop a bat wing from bats (1 over value)").getInt();
+		
+		ConfigHolder.wolfTailboneDropChance = config.get("drops", "WolfTailboneDropChance", 3, "Chance to drop a wolf tailbone from wolves (1 over value)").getInt();
 		
 		if(config.hasChanged()) config.save();
 		
@@ -106,6 +110,8 @@ public class MTech
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
+		GameRegistry.addRecipe(new ItemStack(resource, 1, 7), "@@@", "@#@", "@@@", '@', Items.GOLD_INGOT, '#', Items.FEATHER);
+		
 		GameRegistry.addRecipe(new ItemStack(resource, 1, 3), "@@@", "@@@", "@@@", '@', new ItemStack(resource, 1, 5));
 		GameRegistry.addShapelessRecipe(new ItemStack(resource, 9, 5), new ItemStack(resource, 1, 3));
 		

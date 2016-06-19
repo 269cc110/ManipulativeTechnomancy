@@ -15,9 +15,13 @@ public class MTechEventHandler
 	{
 		Entity entity = event.getEntity();
 		
-		if(entity instanceof EntityBat && MTech.MTECH_RANDOM.nextInt(MathHelper.clamp_int(10 - (event.getLootingLevel() * 2), 1, 10)) == 0)
+		if(entity instanceof EntityBat && MTech.MTECH_RANDOM.nextInt(MathHelper.clamp_int(ConfigHolder.batWingDropChance - (event.getLootingLevel() * 2), 1, ConfigHolder.batWingDropChance)) == 0)
 		{
 			event.getDrops().add(new EntityItem(entity.worldObj, entity.posX, entity.posY, entity.posZ, new ItemStack(MTech.resource, 1, 0)));
+		}
+		else if(entity instanceof EntityWolf && !((EntityWolf)entity).isTamed() && MTech.MTECH_RANDOM.nextInt(MathHelper.clamp_int(ConfigHolder.wolfTailboneDropChance - (event.getLootingLevel() * 2), 2, ConfigHolder.wolfTailboneDropChance)) == 0)
+		{
+			event.getDrops().add(new EntityItem(entity.worldObj, entity.posX, entity.posY, entity.posZ, new ItemStack(MTech.resource, 1, 6)));
 		}
 	}
 }
