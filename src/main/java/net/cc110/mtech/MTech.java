@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.Mod.*;
 import net.minecraftforge.fml.common.event.*;
 import net.minecraftforge.fml.common.registry.*;
 
-@Mod(modid = "mtech", name = "Manipulative Technomancy", version = "0.1")
+@Mod(modid = "mtech", name = "Manipulative Technomancy", version = "0.0.0")
 public class MTech
 {
 	public static final Random MTECH_RANDOM = new Random();
